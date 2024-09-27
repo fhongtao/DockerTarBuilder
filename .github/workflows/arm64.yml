@@ -6,7 +6,7 @@ on:
       docker_images:
         description: 'linux/arm64/v8'
         required: true
-        default: 'alpine:latest,ubuntu:latest'  # 设置默认的 Docker 镜像列表
+        default: 'linux/arm/v7:latest'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
